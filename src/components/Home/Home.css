@@ -1,0 +1,38 @@
+body{
+      /*Background*/
+  background-image:  linear-gradient(rgba(0,0,0,0.37), rgba(0, 0, 0, 0.37)), url('../../Images/Background.jpg');
+  background-color: black;
+  background-position: 75% 37%;
+  background-size: 125%; /* helps to get to a specific area of the image */
+  background-repeat: no-repeat; 
+  color: white;
+  padding-bottom: 100px;
+}
+
+canvas{
+    display: block;
+}
+ 
+.Home_content{
+    height: 474px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+ 
+.Call_title{
+    /* font-size: 45px; */
+    font-size: 47px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.Call_subtitle{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
